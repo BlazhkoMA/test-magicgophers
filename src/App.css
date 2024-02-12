@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+}
+
+.content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.taskBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
