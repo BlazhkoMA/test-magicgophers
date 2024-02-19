@@ -1,15 +1,13 @@
-import { CheckOutlined } from "@ant-design/icons"
-
 export const Task1 = () => {
-    // используем эту иконку <CheckOutlined />
-    // красим ее в зеленый когда активно
-    // в красном по дефолту
-    // рядом текст "Нажми на меня"
-
+  // Установить задержку 2 секунды
+  
+  const callback = () => {
+    console.log('Задержка 2 секунды')
+  }
 
   return (
     <div className='taskBlock'>
-      <h2>Стилизовать чекбокс <CheckOutlined /></h2>
+      <h2>Написать функцию задержки выполнения (Promise)</h2>
       <div></div>
     </div>
   )
